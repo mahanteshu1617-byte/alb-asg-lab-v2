@@ -8,7 +8,11 @@ variable "aws_region" {
 variable "project_name" {
   description = "Project name"
   type        = string
+<<<<<<< HEAD
   default     = "conflict-B"
+=======
+  default     = "conflict-c"
+>>>>>>> feature/conflict-test
 }
 
 variable "vpc_cidr" {
