@@ -7,7 +7,7 @@ variable "aws_region" {
 variable "project_name" {
   description = "Project name"
   type        = string
-  default     = "alb-asg-lab"
+  default     = "conflict-A"
 }
 
 variable "vpc_cidr" {
